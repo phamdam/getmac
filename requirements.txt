@@ -1,0 +1,6 @@
+requests
+fastapi
+uvicorn[standard]
+routeros-api
+gspread
+google-auth
