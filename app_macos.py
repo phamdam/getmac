@@ -4,7 +4,7 @@ from tkinter import messagebox
 import requests
 import subprocess
 
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000/api/register-mac")
+API_URL = os.getenv("API_URL", "http://172.16.1.220:8000/api/register-mac")
 
 
 def normalize_mac(mac):

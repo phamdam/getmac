@@ -1,6 +1,17 @@
-requests
-fastapi
-uvicorn[standard]
-routeros-api
-gspread
-google-auth
+# Core HTTP library
+requests>=2.31.0
+
+# For SSL/HTTPS support
+certifi>=2023.7.22
+urllib3>=2.0.0
+charset-normalizer>=3.2.0
+idna>=3.4
+
+# Optional dependencies (if needed for server)
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+routeros-api>=0.0.31
+gspread>=5.10.0
+google-auth>=2.22.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.1
