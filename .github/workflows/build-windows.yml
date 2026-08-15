@@ -37,7 +37,7 @@ jobs:
         python -m PyInstaller RegisterWiFiMAC-windows.spec
     
     - name: Upload executable as artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: RegisterWiFiMAC-Windows
         path: dist/RegisterWiFiMAC.exe
