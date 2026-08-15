@@ -54,7 +54,7 @@ jobs:
           "dist/RegisterWiFiMAC.app" || echo "DMG creation skipped (no icon)"
     
     - name: Upload app as artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: RegisterWiFiMAC-macOS
         path: dist/RegisterWiFiMAC.app
@@ -62,7 +62,7 @@ jobs:
     
     - name: Upload DMG as artifact (if created)
       if: success()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: RegisterWiFiMAC-macOS-DMG
         path: dist/RegisterWiFiMAC.dmg
