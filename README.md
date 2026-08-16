@@ -24,8 +24,8 @@ Trên Windows PowerShell:
 $env:GOOGLE_SERVICE_ACCOUNT_FILE = "C:\path\to\service-account.json"
 $env:GOOGLE_SHEET_ID = "your_sheet_id_here"
 $env:MIKROTIK_IP = "172.16.1.1"
-$env:MIKROTIK_USER = "admin"
-$env:MIKROTIK_PASS = "Fschoolhpg@2026"
+$env:MIKROTIK_USER = ""
+$env:MIKROTIK_PASS = ""
 $env:API_URL = "http://127.0.0.1:8000/api/register-mac"
 ```
 Nếu bạn muốn dùng nội dung JSON thay vì file:
